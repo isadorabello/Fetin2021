@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">App Fetin</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="cadastrarEmpresa">CADASTRAR MEU NEGÓCIO</string>
+    <string name="cadastro">CADASTRE SEU NEGÓCIO AQUI!</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="telefone">Telefone</string>
+    <string name="telefoneComercial">Telefone Comercial</string>
+    <string name="telefonePessoal">Telefone Pessoal</string>
+    <string name="endereco">Endereço</string>
+    <string name="nEstabelecimento">Nome do Estabelecimento</string>
+    <string name="cliente">Cliente</string>
+    <string name="estabelecimento">Estabelecimento</string>
+    <string name="sair">Sair</string>
+    <string name="salvar">Salvar</string>
+    <string name="editar">Editar Perfil</string>
+    <string name="adicionar">Adicionar Produto</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="produtos">Produtos</string>
+    <string name="perfil">Perfil</string>
+    <string name="alterarFoto">Alterar foto</string>
+    <string name="categoria">Categoria</string>
+    <string name="categoriaEmpresa">Drogaria / Farmácia / Drogaria e Farmácia</string>
+    <string name="tempoEntrega">Tempo de Entrega</string>
+    <string name="precoEntrega">Taxa da Entrega</string>
+    <string name="produto">Adicionar Produto</string>
+    <string name="descricao">Descrição</string>
+    <string name="preco">Preço</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="carrinho">Ver carrinho:</string>
+    <string name="quantidade">Quant. 0</string>
+    <string name="valor">R$ 0</string>
+    <string name="confirmar">Confirmar pedido</string>
+    <string name="cancelar">Cancelar pedido</string>
+    <string name="pagamento">Modo de pagamento</string>
+    <string name="observacao">Observação</string>
+    <string name="itens">1) Omeprazol 20mg (1 X R$ 12.50)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".fragments.PerfilEmpresaFragment"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagePerfilEmpresa"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/perfil"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <TextView
+            android:id="@+id/textNomeEmpresa"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/nEstabelecimento"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/email"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="194dp" />
+
+        <TextView
+            android:id="@+id/textEmailEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="226dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/categoria"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textCategoriaEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/tempoEntrega"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textTempoEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/precoEntrega"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textPrecoEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/telefone"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <TextView
+            android:id="@+id/textTelefoneCEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/endereco"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="354dp" />
+
+        <TextView
+            android:id="@+id/textEnderecoEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/nome"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <TextView
+            android:id="@+id/textNomeDonoEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="466dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/telefonePessoal"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="514dp" />
+
+        <TextView
+            android:id="@+id/textTelefonePEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="546dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

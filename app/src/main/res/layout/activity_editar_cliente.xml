@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.EditarClienteActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagePerfilCliente"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/perfil" />
+
+        <TextView
+            android:id="@+id/textAlterarFotoC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/alterarFoto"
+            android:textColor="@color/verde_mais_escuro"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_perfil"
+            android:background="@drawable/bg_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editEmailCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:background="@drawable/bg_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTelefoneCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_celular"
+            android:background="@drawable/bg_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/telefonePessoal"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editEnderecoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_local"
+            android:background="@drawable/bg_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/endereco"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/buttonSalvarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_botao"
+            android:padding="12dp"
+            android:text="@string/salvar"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

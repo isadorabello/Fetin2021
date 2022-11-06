@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273881998319",
+    "firebase_url": "https://fetin-16432-default-rtdb.firebaseio.com",
+    "project_id": "fetin-16432",
+    "storage_bucket": "fetin-16432.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273881998319:android:663bfab8c022e3ca3a8c1a",
+        "android_client_info": {
+          "package_name": "com.example.appfetin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273881998319-n5i0b8gipftbh0v7j9cvgffthk45d0ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appfetin",
+            "certificate_hash": "4b997a756c8d698f2d6a3750175d31fa521ab471"
+          }
+        },
+        {
+          "client_id": "273881998319-gerldq81boirj0jetecpckuqoqj0klsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZJVg98RaJiWQdg9nUA-9qXyK1DIWjRwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273881998319-gerldq81boirj0jetecpckuqoqj0klsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
